@@ -1,0 +1,44 @@
+/* font styles for all common shared  */
+body {
+    font-family: "Open Sans", sans-serif;
+   }
+.btn-primary{
+border-radius:5px;
+background: #FD6E0A;
+border:0;
+color:aliceblue;
+font-size: 20px;
+font-weight: 480;
+padding:15px 36px;
+}
+/* styles for nav */
+nav {
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+.nav-title{  
+font-weight: 800;
+font-size: 45px;
+color: #181818;
+
+}
+/* same color orange */
+.text-color{
+  color: #FD6E0A;
+}
+/* Nav links flexig */
+nav > ul{
+  display: flex;
+  align-items: center;
+}
+nav  li {
+  list-style: none;
+  margin: 45px;
+  
+}
+
+ul a {
+  text-decoration: none;
+  color:#474747;
+}
