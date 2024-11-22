@@ -46,12 +46,28 @@ ul a {
 /* banner related styles */
 .header-style{
   background:#FFF8F3 ;
+  background-image: url("../images/header_bg.png");
+  background-repeat: no-repeat;
+  background-position: bottom right;
 }
 .banner{
-  padding: 30px 30px 30px 150px;
+  padding: 30px 30px 0px 150px;
   display: flex;
   align-items: center;
+  justify-content: space-between;
+}
+.bnr-intro{
+  max-width: 400px;
 }
 .banner .profile-img{
   width: 400px;
+  
+}
+.bnr-greeting{
+  font-size: 45px;
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+.welcome{
+  margin-bottom: 0px;
 }
