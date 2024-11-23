@@ -11,6 +11,13 @@ font-size: 20px;
 font-weight: 480;
 padding:15px 36px;
 }
+.section-title{
+  color:#181818;
+  text-align: center;
+  /* This can be use in several section */
+  font-size: 35px;
+  font-weight: 700;
+}
 /* styles for nav */
 nav {
 display: flex;
@@ -70,4 +77,28 @@ ul a {
 }
 .welcome{
   margin-bottom: 0px;
+}
+/* main body part */
+.about{
+  background: #FFF8F3;
+  padding:130px;
+  margin: 130px 0px;
+  
+}
+.description{
+  color:#757575;
+  text-align: center;
+  font-size: 18px;
+}
+.main-section{
+  max-width: 1140px;
+  margin: 0 auto;
+}
+.sec-info-container{
+  display: flex;
+  justify-content: space-around;
+  
+}
+.about-info{
+  text-align: center;
 }
