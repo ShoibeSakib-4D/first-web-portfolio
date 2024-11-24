@@ -144,3 +144,12 @@ ul a {
   .download{
     text-align: center;
   }
+  .footer-sec{
+    display: flex;
+    background: #FFF8F3;
+    margin-top: 20px;
+    padding: 130px 200px;
+  }
+  .footer-column-first{
+padding-right: 113;
+  }
