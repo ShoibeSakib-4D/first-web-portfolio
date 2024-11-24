@@ -144,12 +144,30 @@ ul a {
   .download{
     text-align: center;
   }
+  .footer-column{
+    width: 50%;
+
+  }
   .footer-sec{
     display: flex;
+    gap: 150px;
     background: #FFF8F3;
     margin-top: 20px;
     padding: 130px 200px;
   }
-  .footer-column-first{
-padding-right: 113;
+  /* .footer-column-first{
+padding-right: 113px;
+  } */
+  .social-media a{
+    margin: 10px;
+  }
+  .contact input[type="text"],
+  .contact input[type="email"], 
+  textarea{
+    display: block;
+    margin:10px 0px 25px 0px;
+    padding: 18px 35px;
+    border-radius: 5px;
+    border: 0;
+    width: 100%;
   }
